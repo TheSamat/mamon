@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    margin-bottom: 100px;
+}
+.menu{
+   display:none ;
+}
+
+.menu-btn{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: #c2c2c2;
+    border-radius: 50%;
+    display: block;
+
+
+}
+.menu-btn span{
+    position: absolute;
+    width: 30px;
+    top: 50%;
+    height: 2px;
+    background: #222;
+    margin-left: 10px;
+}
+.menu-btn span:before,
+.menu-btn span:after{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: #222;
+    transition: .2s;
+
+}
+.menu-btn span:before{
+    transform: translateY(-5px);
+}
+.menu-btn span:after{
+    transform: translateY(5px);
+}
+.menu-btn-active{
+
+}
+.menu-btn-active span{
+    height: 0;
+
+}
+.menu-btn-active span:before{
+    transform: rotate(45deg);
+}
+.menu-btn-active span:after{
+    transform: rotate(-45deg);
+}
+.logo h3{
+    margin: 25px;
+    color: #202020;
+    font-size: 2.4rem;
+    line-height: 28px;
+}
+
+
+
+.navigation{
+    display:inline-block;
+    align-items: center;
+
+}
+
+.navSection li{
+    display: inline-block;
+    line-height: 16px;
+    color: #202020;
+    margin: 8px;
+}
+.navSection li a{
+    font-size: 1.4rem;
+    line-height: 16px;
+    color: #202020;
+    transition: .5s;
+    text-decoration: none;
+    padding: 2.5px 14px;
+}
+.navSection li a:hover{
+    background: #5528ff;
+    border-radius: 4px;
+}
+.title{
+    font-size: 3.2rem;
+    margin-top:134.5px;
+    color: #202020;
+}
+.cards{
+    width: 741px;
+    height: 196px;
+    margin: 24px 0 70px 0;
+}
+.titleDescription{
+    font-size: 31px;
+    color: #4F4F4F;
+}
+.btn{
+    width: 235px;
+    height: 60px;
+    background: #5528ff;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 52px;
+    font-size: 24px;
+    transition: .5s;
+}
+.btn:hover{
+    background: #2d84d1;
+    box-shadow: 0 0 5px 5px;
+}
+/*#############device###############*/
+#device{
+    margin-bottom: 100px;
+}
+.subtitle{
+    font-size: 1.4rem;
+    position: relative;
+    margin-bottom: 67px;
+
+}
+.subtitle:before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #c2c2c2;
+    bottom: 10px;
+    left: -110px;
+}
+.subtitle:after{
+    content: '';
+    position: absolute;
+    width: 97%;
+    height: 1px;
+    background: #c2c2c2;
+    bottom: 10px;
+    right:-100px ;
+}
+.icons{
+   font-size: 70px;
+    color: #5528ff;
+    margin-right: 30px;
+}
+.deviceTitle{
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 16px;
+
+}
+.deviceDescription{
+    font-size: 14px;
+    color: #b2b2b2;
+}
+.box{
+    margin-left: 20px;
+}
+/*#############device###############*/
+/*#############mark###############*/
+#mark{
+    height: 500px;
+}
+.face{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.workers{
+    margin-bottom: 10px;
+}
+/*#############mark###############*/
+/*#############footer###############*/
+footer{
+    margin-top: 100px;
+}
+.footerIcons{
+    display: flex;
+    float: right;
+}
+.footerIcons li{
+    list-style: none;
+    padding: 20px;
+}
+/*#############footer###############*/

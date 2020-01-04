@@ -1,0 +1,170 @@
+
+
+/*###header###*/
+@media (max-width: 1200px){
+    header{
+        padding: 20px;
+    }
+
+}
+
+@media (max-width: 992px){
+
+    header{
+        padding: 30px;
+    }
+    .navSection li{
+        line-height: 12px;
+        margin: 4px;
+    }
+    .navSection li a{
+        font-size: 1rem;
+        line-height: 16px;
+        color: #202020;
+        transition: .5s;
+        text-decoration: none;
+        padding: 2px 8px;
+    }
+
+    .title{
+        margin-top: 100px;
+        font-size: 2.8rem;
+    }
+    .titleDescription{
+        font-size: 24px;
+    }
+    .cards{
+        margin: 20px 0 0 0;
+        width: 500px;
+    }
+}
+
+
+@media (max-width: 768px){
+    header{
+        padding: 20px;
+    }
+    .menu{
+        display: block;
+    }
+    .menu-btn-wrap .menu-btn-active{
+        position: fixed;
+        opacity: 1;
+        top: 0;
+        left: 0;
+        background: #222;
+        width: 100px;
+        height: 100vh;
+
+    }
+    .logo svg{
+        width: 50px;
+        height: 50px;
+    }
+    .logo h3 {
+        font-size: 2rem;
+        margin: 15px;
+    }
+    .title{
+        margin-top: 100px;
+        font-size: 2.4rem;
+    }
+    .titleDescription{
+        font-size: 20px;
+    }
+    .cards{
+        margin: 20px 0 0 0;
+        width: 300px;
+    }
+}
+@media (max-width: 576px){
+    header{
+        padding: 0;
+    }
+    .menu{
+        display: block;
+    }
+    .logo svg{
+        width: 30px;
+        height: 30px;
+    }
+    .logo h3{
+        font-size: 1.8rem;
+        margin: 10px;
+    }
+
+    .title{
+        margin-top: 100px;
+        font-size: 2rem;
+    }
+    .titleDescription{
+        font-size: 16px;
+    }
+    .cards{
+        margin: 20px 0 0 0;
+        width: 300px;
+    }
+    .btn {
+        width: 135px;
+        height: 30px;
+        background: #5528ff;
+        border-radius: 3px;
+        color: white;
+        padding: 4px 26px;
+        font-size: 16px;
+    }
+    .btn:hover{
+        background: #2d84d1;
+        box-shadow: 0 0 2px 2px;
+    }
+}
+/*###header###*/
+/*###device###*/
+@media (max-width: 992px){
+    .deviceTitle {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .deviceDescription {
+        font-size: 12px;
+    }
+    .icons {
+        font-size: 55px;
+        margin-right: 16px;
+    }
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 576px){
+    .deviceTitle {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .deviceDescription {
+        font-size: 10px;
+    }
+    .icons {
+        font-size: 45px;
+        margin-right: 14px;
+    }
+}
+/*###device###*/
+/*###worker###*/
+@media (max-width: 992px){
+    .md{
+        margin-top: 100px;
+    }
+}
+@media (max-width: 768px){
+    .md{
+        margin-top: 170px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 576px) {
+    #worker{
+        margin-top: 700px;
+    }
+}
+/*###worker###*/
